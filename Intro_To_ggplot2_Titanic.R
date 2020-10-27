@@ -8,7 +8,7 @@ library(ggplot2)
 library(titanic)
 
 ### Load the Titanic data set
-titanic <- read.csv("/Data/titanic.csv")
+titanic <- read.csv("Data/titanic.csv")
 #or  
 titanic <- titanic::titanic_train #This data is in a CRAN package called titanic 
 
